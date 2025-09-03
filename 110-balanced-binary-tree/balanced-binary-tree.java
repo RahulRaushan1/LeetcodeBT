@@ -1,5 +1,5 @@
 class Solution {
-    // comment
+    // comments
     public int levels(TreeNode root){
         if(root==null) return 0;
         return 1 + Math.max(levels(root.left),levels(root.right));
